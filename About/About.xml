@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>Belly vore</name>
+	<author>Junex225</author>
+	<url>https://gitlab.com/Junex225/belly/-/tree/main/</url>
+	<supportedVersions>
+		<li>1.3</li>
+	</supportedVersions>
+	<packageId>rimbelly</packageId>
+	<loadBefore>
+	</loadBefore>
+	<description>add a belly.</description>
+</ModMetaData>
