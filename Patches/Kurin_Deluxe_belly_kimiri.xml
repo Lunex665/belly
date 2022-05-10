@@ -9,7 +9,7 @@
         <li>RimNudeWorld</li>
       </mods>
       <match Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Kimiri"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
         <value>
 
           <!-- Belly -->
@@ -29,97 +29,97 @@
               <!-- RV2_PreyInAnus -->
 
               <RV2_PreyInAnusDumping>
-                <path>Belly/belly_cumE</path>
+                <path>Belly/Kimiri/belly_cumE</path>
               </RV2_PreyInAnusDumping>
               <RV2_PreyInAnusExiting>
-                <path>Belly/belly_cumE</path>
+                <path>Belly/Kimiri/belly_cumE</path>
               </RV2_PreyInAnusExiting>
               <RV2_PreyInAnusPassing>
-                <path>Belly/belly_cumE</path>
+                <path>Belly/Kimiri/belly_cumE</path>
               </RV2_PreyInAnusPassing>
               <RV2_PreyInAnusPleasuring>
-                <path>Belly/belly_cumE</path>
+                <path>Belly/Kimiri/belly_cumE</path>
               </RV2_PreyInAnusPleasuring>
 
               <!-- RV2_PreyInIntestines -->
 
               <RV2_PreyInIntestinesExiting>
-                <path>Belly/belly_cumE</path>
+                <path>Belly/Kimiri/belly_cumE</path>
               </RV2_PreyInIntestinesExiting>
               <RV2_PreyInIntestinesPassing>
-                <path>Belly/belly_cumE</path>
+                <path>Belly/Kimiri/belly_cumE</path>
               </RV2_PreyInIntestinesPassing>
               <RV2_PreyInIntestinesPleasuring>
-                <path>Belly/belly_cumE</path>
+                <path>Belly/Kimiri/belly_cumE</path>
               </RV2_PreyInIntestinesPleasuring>
               <RV2_PreyInIntestinesProcessing>
-                <path>Belly/belly_cumE</path>
+                <path>Belly/Kimiri/belly_cumE</path>
               </RV2_PreyInIntestinesProcessing>
               <RV2_PreyInIntestinesStoring>
-                <path>Belly/belly_cumE</path>
+                <path>Belly/Kimiri/belly_cumE</path>
               </RV2_PreyInIntestinesStoring>
 
               <!-- RV2_PreyInStomach -->
 
               <RV2_PreyInStomachChurning>
-                <path>Belly/belly_cumE</path>
+                <path>Belly/Kimiri/belly_cumE</path>
               </RV2_PreyInStomachChurning>
               <RV2_PreyInStomachDigesting>
-                <path>Belly/belly_cumE</path>
+                <path>Belly/Kimiri/belly_cumE</path>
               </RV2_PreyInStomachDigesting>
               <RV2_PreyInStomachPleasuring>
-                <path>Belly/belly_cumE</path>
+                <path>Belly/Kimiri/belly_cumE</path>
               </RV2_PreyInStomachPleasuring>
               <RV2_PreyInStomachStoring>
-                <path>Belly/belly_cumE</path>
+                <path>Belly/Kimiri/belly_cumE</path>
               </RV2_PreyInStomachStoring>
               <RV2_PreyInStomachWarming>
-                <path>Belly/belly_cumE</path>
+                <path>Belly/Kimiri/belly_cumE</path>
               </RV2_PreyInStomachWarming>
               <RV2_PreyInStomachHealing>
-                <path>Belly/belly_cumE</path>
+                <path>Belly/Kimiri/belly_cumE</path>
               </RV2_PreyInStomachHealing>
 
               <!-- RV2_PreyInVagina -->
 
               <RV2_PreyInVaginaDumping>
-                <path>Belly/belly_cumE</path>
+                <path>Belly/Kimiri/belly_cumE</path>
               </RV2_PreyInVaginaDumping>
               <RV2_PreyInVaginaExiting>
-                <path>Belly/belly_cumE</path>
+                <path>Belly/Kimiri/belly_cumE</path>
               </RV2_PreyInVaginaExiting>
               <RV2_PreyInVaginaPassing>
-                <path>Belly/belly_cumE</path>
+                <path>Belly/Kimiri/belly_cumE</path>
               </RV2_PreyInVaginaPassing>
               <RV2_PreyInVaginaPleasuring>
-                <path>Belly/belly_cumE</path>
+                <path>Belly/Kimiri/belly_cumE</path>
               </RV2_PreyInVaginaPleasuring>
 
               <!-- RV2_PreyInWomb -->
 
               <RV2_PreyInWombConvertingLube>
-                <path>Belly/belly_cumE</path>
+                <path>Belly/Kimiri/belly_cumE</path>
               </RV2_PreyInWombConvertingLube>
               <RV2_PreyInWombDissolving>
-                <path>Belly/belly_cumE</path>
+                <path>Belly/Kimiri/belly_cumE</path>
               </RV2_PreyInWombDissolving>
               <RV2_PreyInWombMushing>
-                <path>Belly/belly_cumE</path>
+                <path>Belly/Kimiri/belly_cumE</path>
               </RV2_PreyInWombMushing>
               <RV2_PreyInWombPleasuring>
-                <path>Belly/belly_cumE</path>
+                <path>Belly/Kimiri/belly_cumE</path>
               </RV2_PreyInWombPleasuring>
               <RV2_PreyInWombStoring>
-                <path>Belly/belly_cumE</path>
+                <path>Belly/Kimiri/belly_cumE</path>
               </RV2_PreyInWombStoring>
               <RV2_PreyInWombWarming>
-                <path>Belly/belly_cumE</path>
+                <path>Belly/Kimiri/belly_cumE</path>
               </RV2_PreyInWombWarming>
               <RV2_PreyInWombReforming>
-                <path>Belly/belly_cumE</path>
+                <path>Belly/Kimiri/belly_cumE</path>
               </RV2_PreyInWombReforming>
               <RV2_PreyInWombHealing>
-                <path>Belly/belly_cumE</path>
+                <path>Belly/Kimiri/belly_cumE</path>
               </RV2_PreyInWombHealing>
             </hediffGraphics>
             <offsets>
