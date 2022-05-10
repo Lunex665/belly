@@ -9,4 +9,4 @@ and part of the code of this:https://gitgud.io/Akiya82/slime-girls
 races currently supported: 
 Kurin deluxe edition:https://steamcommunity.com/sharedfiles/filedetails/?id=2670355481 ;
 Dragonian Prime Race2.0:https://steamcommunity.com/sharedfiles/filedetails/?id=2679782347
-
+Rabbie The Moonrabbit race:https://steamcommunity.com/sharedfiles/filedetails/?id=1837246563&searchtext=rabbie
