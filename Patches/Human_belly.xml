@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>RimVore-2</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>RimNudeWorld</li>
+      </mods>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
+        <value>
+
+          <!-- Belly -->
+
+          <li>
+            <debug>false</debug>
+            <path>null</path>
+            <shaderType>Transparent</shaderType>
+            <colorChannel>skin</colorChannel>
+            <inFrontOfBody>true</inFrontOfBody>
+            <drawnInBed>false</drawnInBed>
+            <hiddenUnderApparelFor>
+              <li>Torso</li>
+            </hiddenUnderApparelFor>
+            <hediffGraphics>
+
+              <!-- RV2_PreyInAnus -->
+
+              <RV2_PreyInAnusDumping>
+                <path>Belly/belly_cumE</path>
+              </RV2_PreyInAnusDumping>
+              <RV2_PreyInAnusExiting>
+                <path>Belly/belly_cumE</path>
+              </RV2_PreyInAnusExiting>
+              <RV2_PreyInAnusPassing>
+                <path>Belly/belly_cumE</path>
+              </RV2_PreyInAnusPassing>
+              <RV2_PreyInAnusPleasuring>
+                <path>Belly/belly_cumE</path>
+              </RV2_PreyInAnusPleasuring>
+
+              <!-- RV2_PreyInIntestines -->
+
+              <RV2_PreyInIntestinesExiting>
+                <path>Belly/belly_cumE</path>
+              </RV2_PreyInIntestinesExiting>
+              <RV2_PreyInIntestinesPassing>
+                <path>Belly/belly_cumE</path>
+              </RV2_PreyInIntestinesPassing>
+              <RV2_PreyInIntestinesPleasuring>
+                <path>Belly/belly_cumE</path>
+              </RV2_PreyInIntestinesPleasuring>
+              <RV2_PreyInIntestinesProcessing>
+                <path>Belly/belly_cumE</path>
+              </RV2_PreyInIntestinesProcessing>
+              <RV2_PreyInIntestinesStoring>
+                <path>Belly/belly_cumE</path>
+              </RV2_PreyInIntestinesStoring>
+
+              <!-- RV2_PreyInStomach -->
+
+              <RV2_PreyInStomachChurning>
+                <path>Belly/belly_cumE</path>
+              </RV2_PreyInStomachChurning>
+              <RV2_PreyInStomachDigesting>
+                <path>Belly/belly_cumE</path>
+              </RV2_PreyInStomachDigesting>
+              <RV2_PreyInStomachPleasuring>
+                <path>Belly/belly_cumE</path>
+              </RV2_PreyInStomachPleasuring>
+              <RV2_PreyInStomachStoring>
+                <path>Belly/belly_cumE</path>
+              </RV2_PreyInStomachStoring>
+              <RV2_PreyInStomachWarming>
+                <path>Belly/belly_cumE</path>
+              </RV2_PreyInStomachWarming>
+              <RV2_PreyInStomachHealing>
+                <path>Belly/belly_cumE</path>
+              </RV2_PreyInStomachHealing>
+
+              <!-- RV2_PreyInVagina -->
+
+              <RV2_PreyInVaginaDumping>
+                <path>Belly/belly_cumE</path>
+              </RV2_PreyInVaginaDumping>
+              <RV2_PreyInVaginaExiting>
+                <path>Belly/belly_cumE</path>
+              </RV2_PreyInVaginaExiting>
+              <RV2_PreyInVaginaPassing>
+                <path>Belly/belly_cumE</path>
+              </RV2_PreyInVaginaPassing>
+              <RV2_PreyInVaginaPleasuring>
+                <path>Belly/belly_cumE</path>
+              </RV2_PreyInVaginaPleasuring>
+
+              <!-- RV2_PreyInWomb -->
+
+              <RV2_PreyInWombConvertingLube>
+                <path>Belly/belly_cumE</path>
+              </RV2_PreyInWombConvertingLube>
+              <RV2_PreyInWombDissolving>
+                <path>Belly/belly_cumE</path>
+              </RV2_PreyInWombDissolving>
+              <RV2_PreyInWombMushing>
+                <path>Belly/belly_cumE</path>
+              </RV2_PreyInWombMushing>
+              <RV2_PreyInWombPleasuring>
+                <path>Belly/belly_cumE</path>
+              </RV2_PreyInWombPleasuring>
+              <RV2_PreyInWombStoring>
+                <path>Belly/belly_cumE</path>
+              </RV2_PreyInWombStoring>
+              <RV2_PreyInWombWarming>
+                <path>Belly/belly_cumE</path>
+              </RV2_PreyInWombWarming>
+              <RV2_PreyInWombReforming>
+                <path>Belly/belly_cumE</path>
+              </RV2_PreyInWombReforming>
+              <RV2_PreyInWombHealing>
+                <path>Belly/belly_cumE</path>
+              </RV2_PreyInWombHealing>
+            </hediffGraphics>
+            <offsets>
+              <south>
+                <layerOffset>-0.279</layerOffset>
+                <bodyTypes>
+                  <Female>(0,0)</Female>
+                </bodyTypes>
+              </south>
+              <north>
+                <layerOffset>-1.3</layerOffset>
+                <bodyTypes>
+                  <Female>(0,0)</Female>
+                </bodyTypes>
+              </north>
+              <east>
+                <layerOffset>-0.279</layerOffset>
+                <bodyTypes>
+                  <Female>(0,0)</Female>
+                </bodyTypes>
+              </east>
+            </offsets>
+          </li>
+
+          <!-- Breast -->
+
+          <li>
+            <debug>false</debug>
+            <path>Breasts/FeaturelessLeft</path>
+            <shaderType>Transparent</shaderType>
+            <inFrontOfBody>true</inFrontOfBody>
+            <colorChannel>skin</colorChannel>
+            <drawnInBed>true</drawnInBed>
+            <hiddenUnderApparelFor>
+              <li>Torso</li>
+            </hiddenUnderApparelFor>
+            <hediffGraphics>
+
+              <!-- Breast -->
+
+              <RV2_PreyInBreastsConvertingMilk>
+                <path>Breasts/breasts_huge_left</path>
+              </RV2_PreyInBreastsConvertingMilk>
+              <RV2_PreyInBreastsDissolving>
+                <path>Breasts/breasts_huge_left</path>
+              </RV2_PreyInBreastsDissolving>
+              <RV2_PreyInBreastsMushing>
+                <path>Breasts/breasts_huge_left</path>
+              </RV2_PreyInBreastsMushing>
+              <RV2_PreyInBreastsPleasuring>
+                <path>Breasts/breasts_huge_left</path>
+              </RV2_PreyInBreastsPleasuring>
+              <RV2_PreyInBreastsStoring>
+                <path>Breasts/breasts_huge_left</path>
+              </RV2_PreyInBreastsStoring>
+              <RV2_PreyInBreastsWarming>
+                <path>Breasts/breasts_huge_left</path>
+              </RV2_PreyInBreastsWarming>
+              <RV2_PreyInBreastsHealing>
+                <path>Breasts/breasts_huge_left</path>
+              </RV2_PreyInBreastsHealing>
+
+              <!-- Nipple -->
+
+              <RV2_PreyInNippleDumping>
+                <path>Breasts/breasts_huge_left</path>
+              </RV2_PreyInNippleDumping>
+              <RV2_PreyInNippleExiting>
+                <path>Breasts/breasts_huge_left</path>
+              </RV2_PreyInNippleExiting>
+              <RV2_PreyInNipplePassing>
+                <path>Breasts/breasts_huge_left</path>
+              </RV2_PreyInNipplePassing>
+              <RV2_PreyInNipplePleasuring>
+                <path>Breasts/breasts_huge_left</path>
+              </RV2_PreyInNipplePleasuring>
+            </hediffGraphics>
+            <offsets>
+              <south>
+                <layerOffset>-0.2764</layerOffset>
+                <bodyTypes>
+                  <Female>(0,0)</Female>
+                </bodyTypes>
+              </south>
+              <north>
+                <layerOffset>-0.2764</layerOffset>
+                <bodyTypes>
+                  <Female>(0,0)</Female>
+                </bodyTypes>
+              </north>
+              <east>
+                <layerOffset>-0.2764</layerOffset>
+                <bodyTypes>
+                  <Female>(0,0)</Female>
+                </bodyTypes>
+              </east>
+            </offsets>
+          </li>
+          <li>
+            <debug>false</debug>
+            <path>Breasts/FeaturelessRight</path>
+            <shaderType>Transparent</shaderType>
+            <inFrontOfBody>true</inFrontOfBody>
+            <colorChannel>skin</colorChannel>
+            <drawnInBed>true</drawnInBed>
+            <hiddenUnderApparelFor>
+              <li>Torso</li>
+            </hiddenUnderApparelFor>
+            <hediffGraphics>
+
+              <!-- Breast -->
+
+              <RV2_PreyInBreastsConvertingMilk>
+                <path>Breasts/breasts_huge_right</path>
+              </RV2_PreyInBreastsConvertingMilk>
+              <RV2_PreyInBreastsDissolving>
+                <path>Breasts/breasts_huge_right</path>
+              </RV2_PreyInBreastsDissolving>
+              <RV2_PreyInBreastsMushing>
+                <path>Breasts/breasts_huge_right</path>
+              </RV2_PreyInBreastsMushing>
+              <RV2_PreyInBreastsPleasuring>
+                <path>Breasts/breasts_huge_right</path>
+              </RV2_PreyInBreastsPleasuring>
+              <RV2_PreyInBreastsStoring>
+                <path>Breasts/breasts_huge_right</path>
+              </RV2_PreyInBreastsStoring>
+              <RV2_PreyInBreastsWarming>
+                <path>Breasts/breasts_huge_right</path>
+              </RV2_PreyInBreastsWarming>
+              <RV2_PreyInBreastsHealing>
+                <path>Breasts/breasts_huge_right</path>
+              </RV2_PreyInBreastsHealing>
+
+              <!-- Nipple -->
+
+              <RV2_PreyInNippleDumping>
+                <path>Breasts/breasts_huge_right</path>
+              </RV2_PreyInNippleDumping>
+              <RV2_PreyInNippleExiting>
+                <path>Breasts/breasts_huge_right</path>
+              </RV2_PreyInNippleExiting>
+              <RV2_PreyInNipplePassing>
+                <path>Breasts/breasts_huge_right</path>
+              </RV2_PreyInNipplePassing>
+              <RV2_PreyInNipplePleasuring>
+                <path>Breasts/breasts_huge_right</path>
+              </RV2_PreyInNipplePleasuring>
+            </hediffGraphics>
+            <offsets>
+              <south>
+                <layerOffset>-0.2764</layerOffset>
+                <bodyTypes>
+                  <Female>(0,0)</Female>
+                </bodyTypes>
+              </south>
+              <north>
+                <layerOffset>-0.2764</layerOffset>
+                <bodyTypes>
+                  <Female>(0,0)</Female>
+                </bodyTypes>
+              </north>
+              <east>
+                <layerOffset>-0.2764</layerOffset>
+                <bodyTypes>
+                  <Female>(0,0)</Female>
+                </bodyTypes>
+              </east>
+            </offsets>
+          </li>
+
+          <!-- Testicles -->
+          
+          <li>
+            <debug>false</debug>
+            <path>Genitals/Testicles/FeaturelessTesticles</path>
+            <bodyPart>Genitals</bodyPart>
+            <shaderType>Transparent</shaderType>
+            <inFrontOfBody>true</inFrontOfBody>
+            <drawnInBed>true</drawnInBed>
+            <hiddenUnderApparelFor>
+              <li>Legs</li>
+            </hiddenUnderApparelFor>
+            <hediffGraphics>
+              <RV2_PreyInTesticlesConvertingSperm>
+                <path>Genitals/Testicles/balls_huge</path>
+              </RV2_PreyInTesticlesConvertingSperm>
+              <RV2_PreyInTesticlesDissolving>
+                <path>Genitals/Testicles/balls_huge</path>
+              </RV2_PreyInTesticlesDissolving>
+              <RV2_PreyInTesticlesMushing>
+                <path>Genitals/Testicles/balls_huge</path>
+              </RV2_PreyInTesticlesMushing>
+              <RV2_PreyInTesticlesPleasuring>
+                <path>Genitals/Testicles/balls_huge</path>
+              </RV2_PreyInTesticlesPleasuring>
+              <RV2_PreyInTesticlesStoring>
+                <path>Genitals/Testicles/balls_huge</path>
+              </RV2_PreyInTesticlesStoring>
+              <RV2_PreyInTesticlesWarming>
+                <path>Genitals/Testicles/balls_huge</path>
+              </RV2_PreyInTesticlesWarming>
+              <RV2_PreyInTesticlesHealing>
+                <path>Genitals/Testicles/balls_huge</path>
+              </RV2_PreyInTesticlesHealing>
+            </hediffGraphics>
+            <offsets>
+              <south>
+                <layerOffset>-0.288</layerOffset>
+                <bodyTypes>
+                  <Female>(0, -0.2500))</Female>
+                </bodyTypes>
+              </south>
+              <north>
+                <bodyTypes>
+                  <Female>(0,0)</Female>
+                </bodyTypes>
+              </north>
+              <east>
+                <layerOffset>-0.288</layerOffset>
+                <bodyTypes>
+                  <Female>(0, -0.1400)</Female>
+                </bodyTypes>
+              </east>
+            </offsets>
+          </li>
+        </value>
+      </match>
+    </match>
+  </Operation>
+</Patch>
