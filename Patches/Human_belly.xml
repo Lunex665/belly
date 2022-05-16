@@ -9,7 +9,7 @@
         <li>RimNudeWorld</li>
       </mods>
       <match Class="PatchOperationAdd">
-        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
+        <xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
         <value>
 
           <!-- Belly -->
