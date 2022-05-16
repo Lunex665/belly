@@ -1,7 +1,7 @@
 # Belly
 
 Hello community
-Don't you get the feeling that Nabber's mod is missing something? \n
+Don't you get the feeling that Nabber's mod is missing something?
 Well this adds that missing touch
 P.S.: being my first mod expect a lot of errors
 the drawings of the textures are not mine but of this mod:https://gitgud.io/Akiya82rjw-pregnancy-stages-graphics
